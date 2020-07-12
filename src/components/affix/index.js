@@ -24,7 +24,7 @@ export default class Affix extends PureComponent {
     baseColor: PropTypes.string.isRequired,
     animationDuration: PropTypes.number.isRequired,
 
-    style: Animated.Text.propTypes.style,
+    style: Text.propTypes,
 
     children: PropTypes.oneOfType([
       PropTypes.arrayOf(PropTypes.node),
