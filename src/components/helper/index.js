@@ -10,7 +10,7 @@ export default class Helper extends PureComponent {
   };
 
   static propTypes = {
-    style: Text.propTypes,
+    style: Text.propType,
     children: PropTypes.oneOfType([
       PropTypes.arrayOf(PropTypes.node),
       PropTypes.node,
