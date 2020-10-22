@@ -29,7 +29,7 @@ export default class Label extends PureComponent {
 
     animationDuration: PropTypes.number.isRequired,
 
-    style: Text.propTypes,
+    style: Text.propType,
 
     children: PropTypes.oneOfType([
       PropTypes.arrayOf(PropTypes.node),
