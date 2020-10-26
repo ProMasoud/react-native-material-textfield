@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Animated, Text } from 'react-native';
+import { Animated, TextPropTypes } from 'react-native';
 
 import styles from './styles';
 
@@ -24,7 +24,7 @@ export default class Affix extends PureComponent {
     baseColor: PropTypes.string.isRequired,
     animationDuration: PropTypes.number.isRequired,
 
-    style: Text.propType,
+    style: TextPropTypes.style,
 
     children: PropTypes.oneOfType([
       PropTypes.arrayOf(PropTypes.node),
